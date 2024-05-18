@@ -1,0 +1,70 @@
+body {
+   background: url("img/10597833.jpg") no-repeat center center fixed;
+
+   background-size: cover;
+
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   height: 100vh;
+   color: rgb(0, 0, 0);
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.qua01 {
+   max-width: 50vh;
+   /* padding: 20px;   */
+}
+
+.qua02 {
+   margin-top: 10px; /* Espaçamento entre qua01 e qua02 */
+   padding: 20px; /* Adicionando algum padding para visualização */
+}
+
+table {
+   background-color: rgba(207, 207, 204, 0.705);
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   font-size: 17px;
+   font-weight: 600;
+}
+th,
+td {
+   border: 1px solid yellow;
+   padding: 8px;
+   text-align: left;
+}
+th {
+   background-color: yellow;
+   color: black;
+}
+td a {
+   color: rgb(236, 9, 9);
+   text-decoration: none;
+}
+
+@keyframes blink {
+   0% {
+      opacity: 1;
+   }
+   50% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+a {
+   text-decoration: none; /* Remove o sublinhado padrão */
+   color: #0000ee; /* Cor do link */
+   animation: blink 1s infinite; /* Animação de piscar */
+}
