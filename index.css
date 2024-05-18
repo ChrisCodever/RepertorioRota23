@@ -69,3 +69,7 @@ a {
    color: #0000ee; /* Cor do link */
    animation: blink 1s infinite; /* Animação de piscar */
 }
+
+.fora {
+   background-color: red;
+}
